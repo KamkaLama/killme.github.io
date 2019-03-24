@@ -1,0 +1,75 @@
+body {
+    background-image: url(filesCSS/M3.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+     width: 100%
+     height: 100%;
+     max-width:100%
+     background-size: cover;
+
+}
+#logo {
+    width: 100%;
+    height: 100px;
+    background: #CCD7D3;
+    opacity: 0.3;
+}
+
+#logoP {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    opacity: 0.6;
+}
+
+ul {
+    position: absolute;
+    word-spacing: 10px;
+    font-size: 25px;
+     margin: auto;
+     height: 100px;
+     width: 450px;   
+     right: 10px;
+     top: 40px;  
+}
+ 
+ .ulS {
+      text-decoration: none;
+        color: #8EA3A5;
+ }
+
+ .ulS:hover {
+   color:  #434D4E;
+ }
+
+#AboutI {
+    position: absolute;
+  height: 550px;
+  width: 500px;
+  background: #EEEEDC;
+  border-radius: 30px;
+  right: 120px;
+  top: 150px;
+  opacity: 0.7;
+}
+#AboutTxt {
+    margin: 2px;
+    font-size: 18px;
+}
+#AboutMain {
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 786px) {
+    .ulS a:not(:first-child) {
+        display: none;
+    }
+    body {
+      height: 100%
+      width: 100%;
+    }
+
+}
